@@ -1,0 +1,7 @@
+.text-shadow {
+  text-shadow: 3px 3px 2px #aaa;
+}
+
+.bgHover {
+  box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+}

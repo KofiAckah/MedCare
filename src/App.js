@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./Components/Home";
+import InfoHome from "./Components/InfoHome";
 import NavBar from "./Components/NavBar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="">
       <NavBar />
       <Home />
+      <InfoHome />
     </div>
   );
 }
