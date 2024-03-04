@@ -28,7 +28,7 @@ export default function About() {
           Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Rem Sed Autem
           Vero? Magnam, Est Laboriosam!
         </p>
-        <button className="self-start border-2 border-primary text-primary p-2 rounded-md mt-4 flex hover:text-white hover:bg-primary ease-in-out transition-all duration-500 bgHover">
+        <button className="self-start border-2 border-primary text-primary p-2 rounded-md mt-4 flex hover:text-white hover:bg-primary ease-in-out transition-all duration-500 bgHover btn hover:translate-x-2 hover:translate-y-2">
           Learn More
           <span className="bg-primary text-white ml-2 font-bold rounded-md px-2">
             <FontAwesomeIcon icon={faChevronRight} />

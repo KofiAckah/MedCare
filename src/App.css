@@ -5,3 +5,15 @@
 .bgHover {
   box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
 }
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.social-doc {
+  @apply p-2 border-2 border-primary rounded-md mx-1 text-primary w-5 h-5 hover:text-white hover:bg-primary transition-all ease-in-out duration-500;
+}
+
+.social-doc:hover {
+  box-shadow: 0.3rem 0.3rem 0 rgba(22, 160, 133, 0.2);
+}
