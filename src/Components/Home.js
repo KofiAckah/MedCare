@@ -5,7 +5,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
-    <div id="home" className="h-screen grid grid-cols-2">
+    <div id="home" className="h-screen grid grid-cols-2 bg-gray-100">
       <div className="flex justify-center items-center h-full">
         <img src={HomeImage} alt="Gif Image of A Doctor" className="bg-none" />
       </div>
