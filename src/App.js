@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Book from "./Components/Book";
 import Doctors from "./Components/Doctors";
 import Home from "./Components/Home";
 import InfoHome from "./Components/InfoHome";
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <About />
       <Doctors />
+      <Book />
     </div>
   );
 }

@@ -15,7 +15,7 @@
 }
 
 .social-doc {
-  @apply p-2 border-2 border-primary rounded-md mx-1 text-primary w-5 h-5 hover:text-white hover:bg-primary transition-all ease-in-out duration-500;
+  @apply p-1 sm:p-2 border-2 border-primary rounded-md mx-1 text-primary w-5 h-5 hover:text-white hover:bg-primary transition-all ease-in-out duration-500;
 }
 
 .social-doc:hover {

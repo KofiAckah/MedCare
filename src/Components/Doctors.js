@@ -25,17 +25,17 @@ export default function Doctors() {
     { image: Doc6, name: "Randy Asare" },
   ];
   return (
-    <div className="h-screen bg-gray-100" id="doctors">
+    <div className="md:h-screen bg-gray-100 max-md:pb-5" id="doctors">
       <h2 className="text-center text-6xl font-black text-shadow pt-7 mb-5">
         Our <span className="text-primary">Doctors</span>
       </h2>
-      <div className="grid grid-cols-3 items-center justify-center px-60 gap-x-24 gap-y-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-center gap-5 sm:px-10 lg:px-24 xl:px-32">
         {data.map((item) => (
-          <div className="flex flex-col items-center border-2 border-primary rounded-md bgHover py-6 h-72">
-            <div className="w-40 h-40 overflow-hidden border-2 border-primary rounded-md">
+          <div className="flex flex-col items-center border-2 border-primary rounded-md bgHover py-6 h-80 sm:h-72">
+            <div className="w-32 sm:w-40 h-40 overflow-hidden border-2 border-primary rounded-md">
               <img src={item.image} alt="Doctor Pic" className="object-fill" />
             </div>
-            <p className="text-xl font-bold">{item.name}</p>
+            <p className="text-xl text-center font-bold">{item.name}</p>
             <p className="text-primary">Expect Doctor</p>
             <div className="mt-2">
               <FontAwesomeIcon icon={faFacebookF} className="social-doc" />
