@@ -1,3 +1,7 @@
+.navLinkDesktop {
+  @apply mx-2 text-gray-600 hover:text-primary transition-all ease-in-out;
+}
+
 .text-shadow {
   text-shadow: 3px 3px 2px #aaa;
 }

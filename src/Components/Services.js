@@ -21,13 +21,13 @@ export default function Services() {
   ];
 
   return (
-    <div className="h-screen bg-gray-100" id="services">
+    <div className="lg:h-screen  bg-gray-100" id="services">
       <h2 className="text-center text-6xl font-black text-shadow my-5">
         Our <span className="text-primary">Services</span>
       </h2>
-      <div className="grid grid-cols-3 items-center justify-center px-32 gap-10">
+      <div className="grid grid-cols-2 lg:grid-cols-3 items-center justify-center gap-4 sm:gap-10 lg:px-16 xl:px-40">
         {data.map((item) => (
-          <div className="flex items-start flex-col border-2 border-primary bgHover p-7 rounded-md">
+          <div className="flex items-start flex-col border-2 border-primary bgHover py-5 px-2 rounded-md w-40 sm:w-72 h-full mx-auto">
             <FontAwesomeIcon icon={item.icon} className="h-16 text-primary" />
             <p className="text-2xl font-bold my-4">{item.name}</p>
             <p>
