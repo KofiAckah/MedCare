@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Blogs from "./Components/Blogs";
 import Book from "./Components/Book";
 import Doctors from "./Components/Doctors";
 import Home from "./Components/Home";
@@ -19,6 +20,7 @@ function App() {
       <Doctors />
       <Book />
       <Review />
+      <Blogs />
     </div>
   );
 }
