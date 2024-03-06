@@ -5,6 +5,7 @@ import Doctors from "./Components/Doctors";
 import Home from "./Components/Home";
 import InfoHome from "./Components/InfoHome";
 import NavBar from "./Components/NavBar";
+import Review from "./Components/Review";
 import Services from "./Components/Services";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Doctors />
       <Book />
+      <Review />
     </div>
   );
 }

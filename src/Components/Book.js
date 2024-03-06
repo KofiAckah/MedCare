@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "../Images/Contraception methods.gif";
+import DoctorImage from "../Images/Online Doctor.gif";
 
 export default function Book() {
   return (
@@ -8,9 +8,13 @@ export default function Book() {
       id="book"
     >
       <div className="flex justify-center items-center h-full">
-        <img src={HomeImage} alt="Gif Image of A Doctor" className="bg-none" />
+        <img
+          src={DoctorImage}
+          alt="Gif Image of A Doctor"
+          className="bg-none"
+        />
       </div>
-      <form className="flex flex-col m-5 justify-center border-2 border-primary rounded-md md:w-4/5 bgHover mx-auto">
+      <form className="flex flex-col m-5 mx-10 justify-center border-2 border-primary rounded-md md:w-4/5 bgHover md:mx-auto">
         <caption className="text-2xl md:text-4xl font-bold my-5 sm:my-10">
           Book Appointment
         </caption>
