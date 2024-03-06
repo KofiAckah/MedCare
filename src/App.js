@@ -3,6 +3,7 @@ import About from "./Components/About";
 import Blogs from "./Components/Blogs";
 import Book from "./Components/Book";
 import Doctors from "./Components/Doctors";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import InfoHome from "./Components/InfoHome";
 import NavBar from "./Components/NavBar";
@@ -21,6 +22,7 @@ function App() {
       <Book />
       <Review />
       <Blogs />
+      <Footer />
     </div>
   );
 }

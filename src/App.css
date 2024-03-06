@@ -21,3 +21,20 @@
 .social-doc:hover {
   box-shadow: 0.3rem 0.3rem 0 rgba(22, 160, 133, 0.2);
 }
+
+/* All Footer.js Style Here */
+.head2 {
+  @apply text-2xl font-bold text-gray-800;
+}
+.LinkFoot {
+  @apply flex items-center transition-all ease-in-out duration-500;
+}
+.LinkFoot:hover .liTags {
+  @apply ml-5 transition-all ease-in-out duration-500;
+}
+.arrowRight {
+  @apply mr-2 text-primary;
+}
+.liTags {
+  @apply text-gray-600 transition-all ease-in-out duration-500;
+}
