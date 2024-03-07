@@ -18,8 +18,8 @@ import { HashLink as Link } from "react-router-hash-link";
 export default function Footer() {
   return (
     <div className="bg-gray-100">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <div>
+      <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="containerFooter">
           <h2 className="head2">Quick Links</h2>
           <ul>
             <Link smooth to="#home" className="LinkFoot">
@@ -52,7 +52,7 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className="containerFooter">
           <h2 className="head2">Our Services</h2>
           <ul>
             <Link smooth to="" className="LinkFoot">
@@ -81,7 +81,7 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className="containerFooter">
           <h2 className="head2">Contact Info</h2>
           <ul>
             <Link to="tel:+233262092037" className="LinkFoot">
@@ -106,13 +106,35 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className="containerFooter">
           <h2 className="head2">Follow Us</h2>
+          <ul>
+            <Link to="" className="LinkFoot">
+              <FontAwesomeIcon icon={faFacebookF} className="arrowRight" />
+              <li className="liTags">Facebook</li>
+            </Link>
+            <Link to="" className="LinkFoot">
+              <FontAwesomeIcon icon={faInstagram} className="arrowRight" />
+              <li className="liTags">Instagram</li>
+            </Link>
+            <Link to="" className="LinkFoot">
+              <FontAwesomeIcon icon={faTwitter} className="arrowRight" />
+              <li className="liTags">Twitter</li>
+            </Link>
+            <Link to="" className="LinkFoot">
+              <FontAwesomeIcon icon={faLinkedin} className="arrowRight" />
+              <li className="liTags">Linkedin</li>
+            </Link>
+            <Link to="" className="LinkFoot">
+              <FontAwesomeIcon icon={faPinterest} className="arrowRight" />
+              <li className="liTags">Pinterest</li>
+            </Link>
+          </ul>
         </div>
       </div>
-      <hr />
-      <div className="flex justify-center items-center">
-        <p className="text-gray-600">
+      <hr className="mx-10 sm:mx-16 md:mx-24 lg:mx-32 xl:mx-40 h-[2px] bg-gray-300" />
+      <div className="flex justify-center items-center py-5">
+        <p className="text-gray-600 text-center">
           Created By <span className="text-primary">Livingstone Ackah</span> | ©
           2024 All Rights Reserved
         </p>

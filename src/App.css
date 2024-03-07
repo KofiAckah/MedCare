@@ -23,11 +23,14 @@
 }
 
 /* All Footer.js Style Here */
+.containerFooter {
+  @apply mx-auto my-2;
+}
 .head2 {
   @apply text-2xl font-bold text-gray-800;
 }
 .LinkFoot {
-  @apply flex items-center transition-all ease-in-out duration-500;
+  @apply flex items-center transition-all ease-in-out duration-500 my-1;
 }
 .LinkFoot:hover .liTags {
   @apply ml-5 transition-all ease-in-out duration-500;
